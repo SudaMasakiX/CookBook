@@ -1,0 +1,96 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "美食食谱",
+        "navigationBarBackgroundColor": "#ed7318",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark"
+      }
+    },
+    {
+      "path": "pages/recipe/add",
+      "style": {
+        "navigationBarTitleText": "添加食谱",
+        "navigationBarBackgroundColor": "#ed7318",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/recipe/detail",
+      "style": {
+        "navigationBarTitleText": "食谱详情",
+        "navigationBarBackgroundColor": "#ed7318",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/recipe/edit",
+      "style": {
+        "navigationBarTitleText": "编辑食谱",
+        "navigationBarBackgroundColor": "#ed7318",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/recipe/random",
+      "style": {
+        "navigationBarTitleText": "随机菜品",
+        "navigationBarBackgroundColor": "#ed7318",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/user/profile",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "navigationBarBackgroundColor": "#ed7318",
+        "navigationBarTextStyle": "white"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "美食食谱",
+    "navigationBarBackgroundColor": "#ed7318",
+    "backgroundColor": "#f5f5f5"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#ed7318",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/tabbar/home.png",
+        "selectedIconPath": "/static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/recipe/add",
+        "text": "添加",
+        "iconPath": "/static/tabbar/add.png",
+        "selectedIconPath": "/static/tabbar/add-active.png"
+      },
+      {
+        "pagePath": "pages/recipe/random",
+        "text": "随机",
+        "iconPath": "/static/tabbar/random.png",
+        "selectedIconPath": "/static/tabbar/random-active.png"
+      },
+      {
+        "pagePath": "pages/user/profile",
+        "text": "我的",
+        "iconPath": "/static/tabbar/user.png",
+        "selectedIconPath": "/static/tabbar/user-active.png"
+      }
+    ]
+  },
+  "uniIdRouter": {},
+  "easycom": {
+    "^van-(.*)": "@vant/weapp/dist/$1/index"
+  }
+} 
